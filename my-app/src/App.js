@@ -30,6 +30,7 @@ function App() {
 
   return (
     <>
+    <div className="App">
       <h2>
         Dice Game{' '}
         <img
@@ -59,6 +60,7 @@ function App() {
         <div id="result">Winner: {winner}</div>
 
         <button onClick={rollDice}>Roll The Dice</button>
+      </div>
       </div>
     </>
   );
