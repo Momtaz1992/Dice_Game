@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Dice_Game/static/css/main.5ccfc575.css",
+    "main.css": "/Dice_Game/static/css/main.fbaed835.css",
     "main.js": "/Dice_Game/static/js/main.eb22a1b2.js",
     "index.html": "/Dice_Game/index.html",
-    "main.5ccfc575.css.map": "/Dice_Game/static/css/main.5ccfc575.css.map",
+    "main.fbaed835.css.map": "/Dice_Game/static/css/main.fbaed835.css.map",
     "main.eb22a1b2.js.map": "/Dice_Game/static/js/main.eb22a1b2.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ccfc575.css",
+    "static/css/main.fbaed835.css",
     "static/js/main.eb22a1b2.js"
   ]
 }
