@@ -14,8 +14,39 @@ body{
        align-items: center;
        justify-content: center;
 }
-
-
+.App{
+       width: 600px;
+       height: 650px;
+       position: relative;
+       border-radius: 8px;
+       display: grid;
+       place-items: center;
+       overflow: hidden;
+}
+.App::before{
+       content: "";
+       position: absolute;
+       width: 600px;
+       height: 100%;
+       background-image: linear-gradient(
+              180deg,
+              #b8a2f7,
+              #d568f6
+       );
+       animation: rotate 3s linear infinite;
+}
+.App::after {
+       content: "";
+       position: absolute;
+       inset: 8px;
+       background:linear-gradient(to bottom right, #FF6868, #e907b8);
+       border-radius: inherit;
+}
+@keyframes rotate {
+       100% {
+              rotate: 360deg;
+       }
+}
 h2{
        font-size: 2.5rem;
        padding-top: 2rem;
@@ -23,6 +54,8 @@ h2{
        align-items: center;
        justify-content: center;
        gap: 1rem;
+       text-transform: uppercase;
+       z-index: 2;
 }
 
 .main-container{
@@ -30,6 +63,7 @@ h2{
        margin: 10px auto;
        padding: 20px;
        border-radius: 20px;
+       z-index: 2;
 }
 
 .players{
@@ -85,10 +119,20 @@ button:active{
        }
        .main-container,h2{
               position: relative;
-              top: 100px;
        }
-       .players{
+       h2{
+              visibility: hidden;
+       }
+       .players,button,#result{
               flex-direction: column;
+              position: relative;
+              bottom: 100px;
+       }
+       .App{
+              width: 350px;
+              height: 700px;
+              position: relative;
+              top: 50px;
        }
 }
 
