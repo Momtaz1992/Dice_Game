@@ -1,4 +1,6 @@
-#Dice Game
+#Dice Game 
+
+Website is Published by: https://momtaz1992.github.io/Dice_Game/
 
 This is a small project created using React, JavaScript, HTML, and CSS. The game is designed to be played on both desktop and mobile devices, with responsive design to adapt to different screen sizes. It's a fun game that you can play with your friends, and the loser of each round has to take a shot of tequila.
 
