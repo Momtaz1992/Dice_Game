@@ -79,10 +79,13 @@ button:active{
 }
 
 @media screen and (max-width: 500px) {
-       .main-container,
-       .body,
-       .result {
-              width: 90%;
+       body{
+              background: none;
+              background-color:#FF6868;
+       }
+       .main-container,h2{
+              position: relative;
+              top: 100px;
        }
        .players{
               flex-direction: column;
